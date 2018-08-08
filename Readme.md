@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ксюша Мартынова](https://up.htmlacademy.ru/htmlcss/22/user/801317).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
