@@ -14,7 +14,7 @@
       <li><a href="#">Информация</a></li>
       <li><a href="#">Фото и видео</a></li>
       <li><a href="#">Карта штата</a></li>
-      <li><a href="#">Гостинницы</a></li>
+      <li><a href="catalog.html">Гостинницы</a></li>
     </ul>
   </nav>
 </header>
@@ -80,20 +80,38 @@
 
   <h2>Заинтересовались?</h2>
     <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
-    <span class="button">Поиск гостинницы в Седоне</span>
+    <button class="button hotel-search">Поиск гостинницы в Седоне</button>
+    <form class="hotel-search-form" action="https://echo.htmlacademy.ru" method="post">
+      <label for="check-in">Дата заезда:</label>
+      <div class="check-in-field">
+      <input id="check-in" type="text" name="check-in" value="" placeholder="24 апреля 2017">
+      <button class="button button-calendar"><img src="img/calendar.svg" alt="Открыть календарь"></button>
+      </div>
+      <div class="check-out-field">
+      <label for="check-out">Дата выезда:</label>
+      <input id="check-out" type="text" name="check-out" value="" placeholder="4 июля 2017">
+      <button class="button button-calendar"><img src="img/calendar.svg" alt="Открыть календарь"></button>
+      </div>
+      <label for="adults">Взрослые:</label>
+      <input id="adults" type="text" name="adults" value="" placeholder="1">
+      <label for="children"> Дети:</label>
+      <input id="children" type="text" name="children" value="" placeholder="1">
+      <button class="button hotel-search-submit" type="submit">Найти</button>
+    </form>
+
     <img src="img/map.jpg" width="1718" height"748" alt="map">
   </main>
   <footer>
     <a class="hashtag" href="#">#visitsedona</a>
     <ul>
       <li>
-        <a class="social-button" href="#"><img src="img/twitter.svg" width="17" height"15" alt="twitter"></a>
+        <a class="social-button" href="#"><img src="img/twitter.svg" width="17" height"15" alt="Подписывайтесь на наш twitter"></a>
       </li>
       <li>
-        <a class="social-button" href="#"><img src="img/fb-icon.svg" width="12" height"22" alt="facebook"></a>
+        <a class="social-button" href="#"><img src="img/fb-icon.svg" width="12" height"22" alt="Следите за нами на facebook"></a>
       </li>
       <li>
-        <a class="social-button" href="#"><img src="img/youtube.svg" width="20" height"16" alt="youtube"></a>
+        <a class="social-button" href="#"><img src="img/youtube.svg" width="20" height"16" alt="Смотрите нас на youtube"></a>
       </li>
     </ul>
    <a class="copyright" href="#"><img src="img/logo-htmlacademy.svg" width="115" height"41" alt="https://htmlacademy.ru"></a>
